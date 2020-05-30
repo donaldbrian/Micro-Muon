@@ -9,5 +9,7 @@ just (search and) replace "konsole" entries with "your terminal of choice" ones.
 
 If you use yad get the zenity version and replace "zenity" entries with "yad".
 Just add the line
+
 choice=$(echo $choice | cut -c1-1)
+
 between "8 "Exit" )" and "run_kons() {"
